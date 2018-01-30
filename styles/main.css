@@ -430,6 +430,41 @@ independent-artist
     padding-left: 350px;
 }
 
+/*iPhones ----------- */
+@media screen and (min-width: 319px) {
+    #body-wrapper {
+        padding-top: 20px;
+    }
+    .big-title>a:nth-of-type(2){
+        /*hyphens: auto;*/
+    }
+    .big-title {
+        /*margin-top: 0px;*/
+        font-size: 38px;
+        padding-bottom: 0px;
+    }
+    .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .container-fluid>.column-full {
+        padding-top: 20px;
+    } 
+    h2 {
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .img-placeholder>iframe {
+        height: 557px;
+    }
+    footer>.column-full {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
 /*iPads ----------- */
 @media screen and (min-width: 768px) {
     .container-fluid {
@@ -439,16 +474,16 @@ independent-artist
     }
 
     .img-placeholder>iframe {
-        height: 500px !important;
+        height: 500px;
     }
 
-    .img-placeholder>video {
-        height: 700px;
-    }
 }
 
 /* Desktops and laptops ----------- */
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 1024px) {
+     #body-wrapper {
+        padding-top: 60px;
+    }
     .container-fluid {
         margin: 0 auto;
         padding-left: 150px;
@@ -456,19 +491,54 @@ independent-artist
     }
 
     .img-placeholder>iframe {
-        height: 750px !important;
+        height: 750px;
     }
 
     .img-placeholder>video {
         height: auto;
     }
+    .big-title {
+        font-size: 55px;
+        padding-bottom: 65px;
+    }
+    h2 {
+        font-size: 55px;
+    }
 }
 
 /* Large screens ----------- */
-@media only screen and (min-width: 1750px) {
-/* Styles */
+@media only screen and (min-width: 1440px) {
     .big-title{
         font-size: 70px;
+    }
+}
+
+/* 4K ----------- */
+@media only screen and (min-width: 2560px) {
+    #body-wrapper {
+        padding-top: 100px;
+    }
+    .big-title{
+        font-size: 100px;
+        padding-bottom: 130px;
+    }
+    h2 {
+        font-size: 80px;
+    }
+    .column-full>p {
+        font-size: 30px;
+    }
+    .column-full {
+        padding-top: 65px;
+    }
+    .img-placeholder {
+        padding-top: 135px;
+    }
+    .link-selector-inline-booking {
+        font-size: 48px;
+    }
+    .img-placeholder>iframe {
+        height: 1100px;
     }
 }
 
